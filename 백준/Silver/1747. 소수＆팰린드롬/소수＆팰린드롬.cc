@@ -9,6 +9,10 @@ bool isPalin(int num);
 
 int main()
 {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    
     long N;
     cin >> N;
     vector<long> A(10000001);
